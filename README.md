@@ -3,15 +3,16 @@
 Project title: Daydreaming on Hopfield and Potts neural networks
 
 We intend to implement the daydreaming algorithm (as described in https://www.sciencedirect.com/science/article/pii/S0893608025000954), first on a Hopfield neural network, and then on a q-state Potts neural network. We will test the effects of the daydreaming algorithm by visualizing and comparing the success of the networks (with and without daydreaming) at [FILL IN HERE, image reconstruction maybe?, data compression and searching? idk]. 
-    
-The planned directory structure is as follows: 
-    /README.md
-    /HNN.py     #implementation of the hopfield neural net, with and without daydreaming
-    /qPottsNN.py     #implementation of q-state potts neurla net, with and without daydreaming
-    /viz.py     #functions for visualizing/plotting the network
+   
+The planned directory structure is as follows: \
+<pre> 
+    /README.md 
+    /HNN.py          #implementation of the hopfield neural net, with and without daydreaming 
+    /qPottsNN.py     #implementation of q-state potts neurla net, with and without daydreaming 
+    /viz.py          #functions for visualizing/plotting the network 
     /ref_data.py     #reference data to test neural, either imported or hardcoded
-    /results.ipynb    #jupyter notebook displaying results for each NN
-
+    /results.ipynb   #jupyter notebook displaying results for each NN
+</pre>
 Chronological steps to complete the project: 
 - Implement Hopfield NN (lots of publically avaiable code, should be easy to start with)
 - Implement daydreaming algorithm on HNN
