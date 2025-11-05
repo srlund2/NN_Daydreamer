@@ -1,4 +1,4 @@
-# NN_Daydreamer
+## Comp Phys Project, group G
 
 **Project title:** 
 Something like "Daydreaming on Hopfield and Potts neural networks" or "Physics inspired biological neural network".
