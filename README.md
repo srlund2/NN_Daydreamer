@@ -1,46 +1,39 @@
-# HNN_Daydreamer
+# NN_Daydreamer
 
-Project title: Daydreaming on Hopfield and Potts neural networks
+**Project title:** 
+Something like "Daydreaming on Hopfield and Potts neural networks" or "Physics inspired biological neural network".
 
-We intend to implement the daydreaming algorithm (as described in https://www.sciencedirect.com/science/article/pii/S0893608025000954), first on a Hopfield neural network, and then on a q-state Potts neural network. We will test the effects of the daydreaming algorithm by visualizing and comparing the success of the networks (with and without daydreaming) at [FILL IN HERE, image reconstruction maybe?, data compression and searching? idk]. 
+**Project Description:**
+This project explores how ideas from statistical physics, specifically the Ising model, have inspired the development of associative neural networks such as the Hopfield Neural Network (HNN) and the Potts Neural Network (PNN). Our project aims to connect physical models of interacting spins to computational models of memory and learning. We will demonstrate the analogy between physical systems and neural computation by evolving the Ising model, HNN, and PNN using the Metropolis algorithm and analyzing their energy landscapes, critical phenomena, and pattern retrieval. We will then incorporate a recent “Daydreaming” learning rule (as described in https://www.sciencedirect.com/science/article/pii/S0893608025000954) to examine how it enhances the memory capacity. [Would we expect enhancements on things like energy enhancemnets and pattern retrieval, as above? Or is memory capcity the only thing changed by thre Daydreaming learning rule?]
    
-The planned directory structure is as follows: \
+**The (loosely) planned directory structure is as follows:** 
 <pre> 
     /README.md 
-    /HNN.py          #implementation of the hopfield neural net, with and without daydreaming 
-    /qPottsNN.py     #implementation of q-state potts neurla net, with and without daydreaming 
-    /viz.py          #functions for visualizing/plotting the network 
-    /ref_data.py     #reference data to test neural, either imported or hardcoded
-    /results.ipynb   #jupyter notebook displaying results for each NN
+    /Ising.py        #simulation of the 2D Ising model using metropolis alogorithm
+    /HNN.py          #implementation of the HNN, with Hebbian and Daydreaming learning rules 
+    /PNN.py          #implementation of the PNN, with and without daydreaming learning rule
+    /viz.py          #functions for visualizing/plotting spin configurations, energy landscape, and memory retrieval
+    /ref_data.py     #reference data for test/train, either imported or hardcoded
+    /results.ipynb   #jupyter notebook displaying overall results 
 </pre>
-Chronological steps to complete the project: 
-- Implement Hopfield NN (lots of publically avaiable code, should be easy to start with)
-- Implement daydreaming algorithm on HNN
-- Implement q-state Potts NN
-- Implement daydreaming algorithm on qPNN
-- At some point create several visualization fuctions to test/compare NN output [??]
 
+**Chronological steps to complete the project:** 
+- Ising Model Implementation:
+   - Simulate the 2D Ising model using the Metropolis algorithm.
+   - Visualize spin configurations and compute magnetization vs. temperature to observe the critical phase transition.
+   - Explore how an external magnetic field affects magnetization.
+- Hopfield Network (2-state Ising analogue):
+   - Implement a HNN using the Hebbian learning rule.
+   - Study/Visualize memory retrieval dynamics and explore energy landscape convergence.
+   - Incorporate the Daydreaming learning rule to reduce spurious attractors and enhance memory capacity.
+- Potts Neural Network (p-state generalization):
+   - Extend HNN to multi-state neurons.
+   - Study/Visualize memory retrieval dynamics and explore energy landscape convergence.
+   - Incorporate the Daydreaming learning rule
 
-Planned contributions of each team member:
-[]
+**Planned contributions of each team member:**
+tbd
 
-Additional notes:
-[]    
+**Additional notes:**
+None at present.    
     
-    
-    
-    
-    
-Instructions:    
-    - Project Title
-    - A 1-2 sentence description of the project. What is the problem you are solving, and what is the main idea of your solution?
-    
-    - A list of the planned directory structure of the project. For example, many projects might use a top-level demo.ipynb file that shows a minimal example of the project working, and then call a subdirectory src/project_name.py that contains the main code implementation. Some projects might have a data directory that contains the data files needed to run the project, or a results directory that contains the results of the project. What you include here entirely up to you and your project, the goal here is to make sure you have a plan for the project’s components and structure and how to break them apart into manageable pieces.
-    
-    - 2-5 bullet points describing the planned chronological steps to complete the project, including the main code you plan to write, what other implementations are available if you plan to build on top of them, and what other components you plan to add.
-    
-    - A 1-2 sentence description of the planned contributions of each team member.
-    
-    - Any additional notes, references, or information that you think is relevant to the project and necessary for someone else to understand your project.
-    
-    - You can change all of this later, the README at this stage is so that the course staff can understand your project and give you feedback on your plan, if needed.
