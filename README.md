@@ -1,10 +1,10 @@
 ## Comp Phys Project, group G
 
 **Project title:** 
-Something like "Daydreaming on Hopfield and Potts neural networks" or "Physics inspired biological neural network".
+Something like "Physics inspired biological neural network" or maybe something silly like "Ising on cake and other Hopfield daydreams".
 
 **Project Description:**
-This project explores how ideas from statistical physics, specifically the Ising model, have inspired the development of associative neural networks such as the Hopfield Neural Network (HNN) and the Potts Neural Network (PNN). Our project aims to connect physical models of interacting spins to computational models of memory and learning. We will demonstrate the analogy between physical systems and neural computation by evolving the Ising model, HNN, and PNN using the Metropolis algorithm and analyzing their energy landscapes, critical phenomena, and pattern retrieval. We will then incorporate a recent “Daydreaming” learning rule (as described in https://www.sciencedirect.com/science/article/pii/S0893608025000954) to examine how it enhances memory capacity, improves pattern retrieval, and changes the energy landscape. 
+This project explores how ideas from statistical physics, specifically the Ising model, have inspired the development of associative neural networks such as the Hopfield Neural Network (HNN). Our project aims to connect physical models of interacting spins to computational models of memory and learning. We will demonstrate the analogy between physical systems and neural computation by evolving the Ising model and HNN using the Metropolis algorithm and analyzing their energy landscapes, critical phenomena, and pattern retrieval. We will then incorporate a recent “Daydreaming” learning rule (as described in https://www.sciencedirect.com/science/article/pii/S0893608025000954) to examine how it enhances memory capacity, improves pattern retrieval, and changes the energy landscape. 
    
 **The (loosely) planned directory structure is as follows:** 
 <pre> 
