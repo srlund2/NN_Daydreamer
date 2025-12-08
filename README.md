@@ -1,6 +1,7 @@
-## Comp Phys Project, group G
+## Ising on cake (and other Hopfield daydreams) 
+Comp Phys Project, group G
 
-**Ising on cake (and other Hopfield daydreams)** \
+**Description** \
 An analysis of the simplfied Ising model on square, triangular, and hexagonal lattices without an external field. A square lattice implementaiton with an external field is also used. We demonstrate the analogy between physical systems and neural computation by evolving the Ising model using the Metropolis algorithm, thus inducing a noise-type temperature dependence, and analyzing the energy landscapes and critical phenomena.
 
 The simplified Ising model is defined by the Hamiltonian:
